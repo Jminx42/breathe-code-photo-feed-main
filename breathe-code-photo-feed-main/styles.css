@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+.wraphead {
+    margin-left: 26%;
+}
+
+.wrapbody {
+    padding: 2%;
+    background-color: lightgrey;
+}
+
+.photowrap {
+    background-color: white;
+    width: 50%;
+    margin: 5% auto;
+
+}
+
+.photonum {
+    color: lightgrey;
+}
+
+.phototitle {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    border-bottom: 1px solid lightgrey;
+}
+
+.photoheading {
+    flex: 1;
+    font-weight: bold;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.photoimg {
+    display: flex;
+    justify-content: center;
+}
+
+.photodesc{
+    border-top: 1px solid lightgrey;
+    background: white;
+    padding: 2%;
+}
